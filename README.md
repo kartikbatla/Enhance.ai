@@ -1,9 +1,9 @@
-Enhance.ai — AI-Powered Data Quality Enhancer
+**Enhance.ai** — AI-Powered Data Quality Enhancer
 
-Enhance.ai is a powerful AI-driven web-based tool that improves the quality of datasets by detecting and correcting issues such as missing values, anomalies, bias, and duplicate records. It helps **AI Engineers**, **Data Analysts**, and **Data Engineers** ensure their datasets are clean, balanced, and ready for robust machine learning model training.
+Enhance.ai is a powerful AI-driven web-based tool that improves the quality of datasets by detecting and correcting issues such as missing values, anomalies, bias, and duplicate records. It helps **AI Engineers** and **Data Engineers** ensure their datasets are clean, balanced, and ready for robust machine learning model training.
 
 
-Table of Contents
+**Table of Contents**
 
 - Features
 - Tech Stack
@@ -11,7 +11,7 @@ Table of Contents
 - Usage
 - How It Works
 
-Features
+**Features**
 
 (1) Missing Value Detection & Imputation  
 (2) Anomaly Detection using IQR technique  
@@ -21,26 +21,25 @@ Features
 (6) Drag-and-Drop Upload Interface  
 (7) Interactive and Responsive UI (HTML/CSS/JS)
 
-Tech Stack
+**Tech Stack**
 
-Frontend:
-- HTML5, CSS3, JavaScript
-- Google Fonts: Poppins, Space Grotesk, Clash Display
+**Frontend:**
+- HTML, CSS, JavaScript
 
-Backend:
+**Backend:**
 - Python (Flask)
 - Pandas, NumPy
 - CORS + File Upload APIs
 - ngrok (for public testing)
 
-AI/ML:
+**AI/ML:**
 - Custom scripts for:
   - Missing Value Handling
   - Anomaly Detection (IQR)
   - Bias Detection
   - Data Cleaning Pipeline
 
-Installation
+**Installation**
 
 1. Clone the Repository
 
@@ -48,7 +47,7 @@ git clone https://github.com/kartikbatla/Enhance.ai.git
 cd enhance-ai
 
 
-Usage
+**Usage**
 Go to the Upload Section of the site.
 Upload a .csv dataset file.
 
@@ -60,7 +59,7 @@ Bias analysis
 
 A cleaned CSV file is auto-downloaded after processing.
 
-How It Works
+**How It Works**
 Upload: Users upload a CSV file through the frontend.
 Preprocessing: Flask backend receives the file and applies:
 
