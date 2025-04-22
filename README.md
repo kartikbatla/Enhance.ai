@@ -54,13 +54,13 @@ Upload a .csv dataset file.
 
 The backend processes:
 
--Missing values
-
--Anomalies
-
--Duplicates
-
--Bias analysis
+  -Missing values
+  
+  -Anomalies
+  
+  -Duplicates
+  
+  -Bias analysis
 
 A cleaned CSV file is auto-downloaded after processing.
 
@@ -70,11 +70,11 @@ Upload: Users upload a CSV file through the frontend.
 
 Preprocessing: Flask backend receives the file and applies:
 
--Imputation for missing values
-
--IQR-based anomaly removal
-
--Duplicate removal
+  -Imputation for missing values
+  
+  -IQR-based anomaly removal
+  
+  -Duplicate removal
 
 Bias Report: Bias is flagged based on value distributions.
 
